@@ -1,4 +1,4 @@
-`
+```
 2019-11-14 15:04:48.630  INFO 10800 --- [           main] step.scope.spy.bean.JobControllerIT      : Started JobControllerIT in 8.184 seconds (JVM running for 9.463)
  2019-11-14 15:04:48.663 ERROR 10800 --- [           main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@636be97c] to prepare test instance [step.scope.spy.bean.JobControllerIT@10b687f2]
  
@@ -44,4 +44,4 @@
  	at org.springframework.batch.core.scope.StepScope.get(StepScope.java:99) ~[spring-batch-core-4.1.2.RELEASE.jar:4.1.2.RELEASE]
  	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:353) ~[spring-beans-5.1.9.RELEASE.jar:5.1.9.RELEASE]
  	... 32 common frames omitted
-`
+```
